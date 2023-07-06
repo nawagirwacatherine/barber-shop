@@ -8,7 +8,7 @@
       background: linear-gradient(rgba(0,0,0,0.2),#009688), url(images/banner.jpg);
       background-size: cover;
       background-position: center;
-      height: 100vh;
+      height: 85vh;
     }
 
     .logo{
@@ -99,6 +99,28 @@ nav ul li a{
   width: 20px;
   margin-top: 15px;
 
+}
+@media screen and (max-width:770px){
+  .banner-text h1{
+    font-size: 44px;
+  
+  }
+   .banner-btn a{
+    display: block;
+    margin: 20px auto;
+
+}
+  
+}
+/*--feature--*/
+
+#feature{
+width: 50%;
+padding: 100px 0;
+}
+.title-text{
+  text-align: center;
+  padding: 70px;
 }
 
 
