@@ -58,15 +58,7 @@
 </section>
 
 
-
-
-
-
-
-
-
-
-    <script>
+ <script>
         var menuBtn = document.getElementById("menuBtn")
         var sideNav = document.getElementById("sideNav")
         var menu = document.getElementById("menu")
@@ -75,16 +67,16 @@
 
 
         menuBtn.onclick = function() {
-           if(sideNav.style.right == "-250px") {
+           if(sideNav.style.right == "-250px"){
                sideNav.style.right = "0";
-            menu.scr = "images/closemenu.png";
+               menu.src = "images/closemenu.png";
             
+             }
+             else{
+                sideNav.style.right = "-250px";
+                menu.src = "images/menu.png";
 
-           }
-           else{
-            sideNav.style.right = "-250px";
-            menu.scr = "images/menu.png";
-           }
+             }
         }
         
     </script>
