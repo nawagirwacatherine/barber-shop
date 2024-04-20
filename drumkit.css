@@ -3,9 +3,6 @@
     color:rgb(248, 35, 35);
 }
 
-.set {
-    margin: 10% auto;
-}
 .drum{
     outline: none;
     border: 10px;
@@ -27,4 +24,37 @@ footer{
     font-style: inherit;
     border-spacing: 5px;
     color: rgb(251, 167, 50);
+}
+
+.w{
+    background-image:url("drums/drum1.jpg") ;
+
+}
+
+.a{
+    background-image:url("drums/drum2.jpg") ;
+}
+
+.s{
+    background-image:url("drums/drum3.jpg") ; 
+}
+
+.d{
+    background-image:url("drums/drum4.jpg") ; 
+}
+
+.j{
+    background-image:url("drums/drum5.jpg") ;  
+}
+
+.k{
+    background-image:url("drums/drum6.jpg") ; 
+}
+
+.l{
+    background-image:url("drums/drum7.jpg") ; 
+}
+
+.set {
+    margin: 10% auto;
 }
